@@ -8,29 +8,29 @@ var cheeses = [ 'danish blue', 'sterling blue']
 
 /* GET apples */
 router.get('/apples', function(req, res, next) {
-  res.status(200).json({apples});
+  res.status(200).json(apples);
 });
 
 /* GET oranges */
 router.get('/oranges', function(req, res, next) {
-  res.status(200).json({oranges});
+  res.status(200).json(oranges);
 });
 
 
 /* GET pears */
 router.get('/pears', function(req, res, next) {
-  res.status(200).json({pears});
+  res.status(200).json(pears);
 });
 
 
 /* GET bananas */
 router.get('/bananas', function(req, res, next) {
-  res.status(200).json({bananas});
+  res.status(200).json(bananas);
 });
 
 /* GET cheese */
 router.get('/cheeses', function(req, res, next) {
-  res.status(200).json({cheeses});
+  res.status(200).json(cheeses);
 });
 
 module.exports = router;
