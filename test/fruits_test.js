@@ -6,7 +6,7 @@ const app = require('../app')
 
 describe('GET /apples', () => {
   it('should return a 200 response', (done) => {
-    api.get('/fruits')
+    api.get('/apples')
     .set('Accept', 'application/json')
     .expect(200, done)
   })
