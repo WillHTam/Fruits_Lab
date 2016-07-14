@@ -4,7 +4,7 @@ var apples = [ 'grannies', 'green']
 var oranges = [ 'sunkist', 'I like this' ]
 var pears = ['pear1', 'pear2']
 var bananas = ['big banana','small banana']
-var cheese = [ 'danish blue', 'sterling blue']
+var cheeses = [ 'danish blue', 'sterling blue']
 
 /* GET apples */
 router.get('/apples', function(req, res, next) {
@@ -29,8 +29,8 @@ router.get('/bananas', function(req, res, next) {
 });
 
 /* GET cheese */
-router.get('/cheese', function(req, res, next) {
-  res.status(200).json({cheese});
+router.get('/cheeses', function(req, res, next) {
+  res.status(200).json({cheeses});
 });
 
 module.exports = router;
